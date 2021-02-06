@@ -3,6 +3,7 @@
   --primary-title-color: #212121;
   --alt-logo-color: #2196f3;
   --bcg-button-color: #f5f4fa;
+  --alt-bcg-color: #f5f4fa;
   --primary-white-color: #fff;
   --footer-bcg-color: #2f303a;
 }
@@ -47,10 +48,20 @@ body {
 
 .address a {
   color: var(--primary-text-color);
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 }
 
 .nav-links .link-main {
   color: #000;
+  font-family: Raleway;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.9;
+  letter-spacing: 0.03em;
 }
 
 a,
@@ -60,6 +71,11 @@ a,
 
 .nav-links .link {
   color: var(--primary-title-color);
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 }
 
 /* Main */
@@ -77,16 +93,68 @@ button:focus {
 }
 
 /* Section Advantages */
-.section-title {
+.section-advantages .section-item {
   color: var(--primary-title-color);
+  font-family: Roboto;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
 
-.section-item {
-  color: var(--primary-title-color);
-}
-
-.section-text {
+.section-advantages .section-text {
   color: var(--primary-text-color);
+}
+
+/* What we do section */
+.section-activities .section-title {
+  color: var(--primary-title-color);
+  font-family: Roboto;
+  font-weight: bold;
+  text-align: center;
+  font-size: 36px;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
+}
+
+/* Our Team section */
+.section-team {
+  background-color: var(--alt-bcg-color);
+}
+
+.section-team .worker {
+  background-color: var(--primary-white-color);
+}
+
+.section-team .section-title {
+  color: var(--primary-title-color);
+  font-family: Roboto;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.section-team .section-item {
+  color: var(--primary-title-color);
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 0.84;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.section-team .section-text {
+  color: var(--primary-text-color);
+  font-family: Roboto;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
 
 /* Footer */
@@ -97,6 +165,19 @@ footer {
 
 .logo-link {
   color: var(--primary-white-color);
+  font-family: Raleway;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+}
+
+.auth-nav .city {
+  font-family: Roboto;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
 }
 
 .logo-link:hover,
