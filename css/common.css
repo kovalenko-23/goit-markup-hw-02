@@ -58,6 +58,10 @@ a,
   text-decoration: none;
 }
 
+.nav-links .link {
+  color: var(--primary-title-color);
+}
+
 /* Main */
 
 /* Hero */
