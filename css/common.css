@@ -1,0 +1,110 @@
+:root {
+  --primary-text-color: #757575;
+  --primary-title-color: #212121;
+  --alt-logo-color: #2196f3;
+  --bcg-button-color: #f5f4fa;
+  --primary-white-color: #fff;
+  --footer-bcg-color: #2f303a;
+}
+
+body {
+  background-color: var(--primary-white-color);
+  color: var(--primary-text-color);
+  font-family: Roboto, sans-serif;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+/* Navigation*/
+
+.part-web {
+  color: var(--alt-logo-color);
+}
+
+.link-main:focus,
+.link-main:hover {
+  color: #000;
+}
+
+.nav-links .link:hover,
+.nav-links .link:focus,
+.address a:hover,
+.address a:focus {
+  color: #2196f3;
+}
+
+.address a {
+  color: var(--primary-text-color);
+}
+
+.nav-links .link-main {
+  color: var(--primary-title-color);
+}
+
+a,
+.nav-links .link {
+  text-decoration: none;
+}
+
+/* Main */
+
+/* Hero */
+button {
+  background-color: var(--bcg-button-color);
+  color: var(--primary-title-color);
+}
+
+button:hover,
+button:focus {
+  color: var(--primary-white-color);
+  background-color: var(--alt-logo-color);
+}
+
+/* Section Advantages */
+.section-title {
+  color: var(--primary-title-color);
+}
+
+.section-item {
+  color: var(--primary-title-color);
+}
+
+.section-text {
+  color: var(--primary-text-color);
+}
+
+/* Footer */
+
+footer {
+  background-color: #2f303a;
+}
+
+.logo-link {
+  color: var(--primary-white-color);
+}
+
+.logo-link:hover,
+.logo-link:focus {
+  color: var(--primary-white-color);
+}
+
+.auth-nav .auth {
+  color: rgb(255, 255, 255, 0.6);
+}
+
+footer a:hover,
+footer a:focus {
+  color: var(--footer-bcg-color);
+}

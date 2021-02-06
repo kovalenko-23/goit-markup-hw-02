@@ -1,0 +1,20 @@
+:root {
+  --primary-text-color: #757575;
+  --primary-title-color: #212121;
+  --alt-logo-color: #2196f3;
+  --bcg-button-color: #f5f4fa;
+  --primary-white-color: #fff;
+  --footer-bcg-color: #2f303a;
+}
+
+a {
+  text-decoration: none;
+}
+
+.projects-list .title {
+  color: var(--primary-title-color);
+}
+
+.projects-list .type {
+  color: var(--primary-text-color);
+}
