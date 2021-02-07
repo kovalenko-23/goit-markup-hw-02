@@ -179,6 +179,10 @@ footer {
   background-color: #2f303a;
 }
 
+.city {
+  color: var(--primary-white-color);
+}
+
 .logo-link {
   color: var(--primary-white-color);
   font-family: Raleway;
