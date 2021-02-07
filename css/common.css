@@ -3,9 +3,9 @@
   --primary-title-color: #212121;
   --alt-logo-color: #2196f3;
   --bcg-button-color: #f5f4fa;
-  --alt-bcg-color: #f5f4fa;
+  --bcg-color: #f5f4fa;
   --primary-white-color: #fff;
-  --footer-bcg-color: #2f303a;
+  --alt-bcg-color: #2f303a;
 }
 
 body {
@@ -81,15 +81,30 @@ a,
 /* Main */
 
 /* Hero */
-button {
-  background-color: var(--bcg-button-color);
-  color: var(--primary-title-color);
+.section-hero {
+  background-color: var(--alt-bcg-color);
 }
 
-button:hover,
-button:focus {
+.section-hero .section-title {
   color: var(--primary-white-color);
+  font-family: Roboto;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.section-hero button {
   background-color: var(--alt-logo-color);
+  color: var(--primary-white-color);
+}
+
+.section-hero button:hover,
+.section-hero button:focus {
+  background-color: var(--bcg-button-color);
+  color: var(--primary-title-color);
 }
 
 /* Section Advantages */
@@ -107,7 +122,7 @@ button:focus {
   color: var(--primary-text-color);
 }
 
-/* What we do section */
+/* Activities section */
 .section-activities .section-title {
   color: var(--primary-title-color);
   font-family: Roboto;
@@ -120,7 +135,7 @@ button:focus {
 
 /* Our Team section */
 .section-team {
-  background-color: var(--alt-bcg-color);
+  background-color: var(--bcg-color);
 }
 
 .section-team .worker {
@@ -191,5 +206,5 @@ footer {
 
 footer a:hover,
 footer a:focus {
-  color: var(--footer-bcg-color);
+  color: var(--alt-bcg-color);
 }

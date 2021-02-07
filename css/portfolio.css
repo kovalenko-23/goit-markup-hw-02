@@ -41,3 +41,14 @@ a {
   line-height: 1.88;
   letter-spacing: 0.03em;
 }
+
+button {
+  background-color: var(--bcg-button-color);
+  color: var(--primary-title-color);
+}
+
+button:hover,
+button:focus {
+  color: var(--primary-white-color);
+  background-color: var(--alt-logo-color);
+}
