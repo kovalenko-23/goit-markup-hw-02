@@ -45,6 +45,13 @@ a {
 button {
   background-color: var(--bcg-button-color);
   color: var(--primary-title-color);
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
 
 button:hover,
