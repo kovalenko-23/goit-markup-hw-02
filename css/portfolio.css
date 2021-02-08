@@ -45,7 +45,7 @@ a {
 button {
   background-color: var(--bcg-button-color);
   color: var(--primary-title-color);
-  font-family: Roboto;
+  font-family: inherit;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
