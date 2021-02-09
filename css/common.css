@@ -6,6 +6,7 @@
   --bcg-color: #f5f4fa;
   --primary-white-color: #fff;
   --alt-bcg-color: #2f303a;
+  --address-items-color: rgb(255, 255, 255, 0.6);
 }
 
 body {
@@ -124,7 +125,6 @@ a,
 
 .section-advantages .section-text {
   color: var(--primary-text-color);
-  font-family: Roboto;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
@@ -210,7 +210,7 @@ footer {
 }
 
 .auth-nav .auth {
-  color: rgb(255, 255, 255, 0.6);
+  color: var(--address-items-color);
 }
 
 footer a:hover,
